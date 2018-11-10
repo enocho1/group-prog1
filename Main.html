@@ -1,30 +1,254 @@
-<!doctype html>
+<!DOCTYPE html>
+<html>
 
-<html lang="en">
 <head>
   <meta charset="utf-8">
-
   <title>A Couple Of Useful Applications Of Computing</title>
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
   <meta name="description" content="A Couple Of Useful Applications Of Computing">
   <meta name="author" content="Enoch Omale">
-
   <link rel="stylesheet" href="style.css">
+  <style>
+  body {
 
+  background: #DFEEF6;
+
+  font-family: 'Raleway', sans-serif;
+
+  margin: 0 auto;
+
+}
+
+
+
+header {
+
+  position: fixed;
+
+  width: 100%;
+
+  z-index: 1;
+
+}
+
+
+
+.headerClone {
+
+  opacity: 0;
+
+}
+
+
+
+h1, h3, h4 {
+
+  text-align: center;
+
+  letter-spacing: 2px;
+
+}
+
+
+
+p {
+
+  line-height: 45px;
+
+}
+
+
+
+.section, .intro {
+
+  position: relative;
+
+  text-align: center;
+
+  color: #0A5276;
+
+}
+
+
+
+.aboutme {
+
+  position: relative;
+
+  text-align: center;
+
+  color: #0A5276;
+
+  font-size: 0.8em;
+
+  top: 2em;
+
+}
+
+
+
+.aboutme p {
+
+  line-height: 20px;
+
+}
+
+
+
+.image {
+
+  margin: 4em auto;
+
+  position: relative;
+
+  width: 100%;
+
+  height: 24em;
+
+  background-size: cover;
+
+}
+
+li {
+
+  list-style: none;
+
+}
+
+
+ul {
+
+  position: relative;
+
+  text-align: center;
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+
+
+.navigation {
+
+  background-color: #0A5276;
+
+}
+
+
+
+.subnavigation {
+
+  background-color: #538BA8;
+
+}
+
+
+
+.navigation a {
+
+  display: inline-block;
+
+  padding: 10px 20px;
+
+  color: white;
+
+  text-decoration: none;
+
+}
+
+
+
+.navigation a:hover, a:active {
+
+  background-color: #538BA8;
+
+}
+
+
+
+.subnavigation a {
+
+  display: inline-block;
+
+  padding: 10px 20px;
+
+  color: white;
+
+  text-decoration: none;
+
+}
+
+
+
+.subnavigation a:hover {
+
+   background: #9EC1D2;
+
+}
+
+
+
+.backToTop {
+
+  position: relative;
+
+  top: 3em;
+
+  float: right;
+
+  text-decoration: none;
+
+  color: #0A5276;
+
+}
+
+
+
+.backToTop:hover {
+
+  color: #538BA8;
+
+}
+
+/*The following style properties are unique and need to stay on this html file. The rest can be deleted once the stylesheet is linked.*/
+
+.backgroundimage {
+  margin: 0;
+  position: relative;
+  width: 100%;
+  height: 50em;
+  background-size: cover;
+  background-image: url(https://images.pexels.com/photos/830891/pexels-photo-830891.jpeg?cs=srgb&dl=architectural-design-architecture-buildings-830891.jpg&fm=jpg);
+}
+
+#mainTitle {
+  margin-top: 3em;
+  font-size: 4em;
+  -webkit-text-stroke-width: 0.03em;
+  -webkit-text-stroke-color: #0A5276;
+  color: white;
+} 
+
+  </style>  
 </head>
-
+  <header>
+    <ul class='navigation'>
+      <a href='Main.html'><li>Main</li></a>
+      <a href='Automation.html'><li>Automation</li></a>
+      <a href='Communication.html'><li>Communication</li></a>
+    </ul>
+    <div class="headerClone"><!--Fills the space on the webpage, as the actual header moves with the page-->
+      <ul class='navigation'>
+        <a href='#'><li>Main</li></a>
+        <a href='#'><li>Automation</li></a>
+        <a href='#'><li>Communication</li></a>  
+      </ul>
+    </div>
+   </header>
 <body>
-	<div>
-		<h1>A Couple Of Useful Applications Of Computing</h1>
-	</div>
-	<div>
-		<ul>
-			<li><h3><a href="#">HOME</a></h3></li>
-			<li><h3><a href="Automation.html">Automation</a></h3></li>
-			<li><h3><a href="Communication.html">Communication</a></h3></li>
-		</ul>
-	</div>
-
-
+   <div class="backgroundimage">Hi<h1 id='mainTitle'>A Couple Of Useful Applications Of Computing</h1></div>
   <script src="?"></script>
 </body>
 </html>
