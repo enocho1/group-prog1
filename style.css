@@ -128,7 +128,7 @@ ul {
 
 
 
-.navigation a:hover, a:active {
+.navigation a:hover, .active {
 
   background-color: #538BA8;
 
