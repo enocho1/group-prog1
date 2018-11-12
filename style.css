@@ -190,7 +190,22 @@ ul {
 
 
 
-.backToTop:hover {
+.facebook {
+
+  position: relative;
+
+  text-decoration: none;
+  
+  font-weight: bold;
+  
+  color: #0A5276;
+  
+  top: 1em;
+
+}
+
+
+.backToTop:hover, .facebook:hover {
 
   color: #538BA8;
 
